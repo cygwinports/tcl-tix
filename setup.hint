@@ -1,0 +1,7 @@
+category: Tcl X11
+requires: libgcc1 libX11_6 tcl tcl-tk
+sdesc: "Tk Interface eXtension"
+ldesc: "Tix, the Tk Interface eXtension, is a powerful set of user 
+interface components that expands the capabilities of your Tcl/Tk and 
+Python applications. Using Tix together with Tk will greatly enhance the 
+appearance and functionality of your application."

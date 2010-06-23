@@ -1,0 +1,11 @@
+ORIG_PN="Tix"
+inherit tcl
+
+DESCRIPTION="Tk Interface eXtension"
+HOMEPAGE="http://tix.sourceforge.net/"
+SRC_URI="mirror://sourceforge/tix/${ORIG_PN}${PV}-src.tar.gz"
+SRC_DIR="${ORIG_PN}${PV}"
+
+DISTCLEANFILES="aclocal.m4"
+
+DOCS="license.terms"
