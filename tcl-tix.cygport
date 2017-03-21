@@ -2,7 +2,7 @@ inherit tcl
 
 NAME="tcl-tix"
 VERSION=8.4.3
-RELEASE=2
+RELEASE=3
 CATEGORY="Tcl"
 SUMMARY="Tk Interface eXtension"
 DESCRIPTION="Tix, the Tk Interface eXtension, is a powerful set of user
@@ -12,6 +12,9 @@ appearance and functionality of your application."
 HOMEPAGE="http://tix.sourceforge.net/"
 SRC_URI="mirror://sourceforge/tix/Tix${VERSION}-src.tar.gz"
 SRC_DIR="Tix${VERSION}"
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/rpms/tix.git/plain/tix-8.4.3-tcl86.patch
+"
 
 DISTCLEANFILES="aclocal.m4"
 
